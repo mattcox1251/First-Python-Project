@@ -57,6 +57,8 @@ def find_attractions(destination, interests):
 la_arts = find_attractions("Los Angeles, USA", ["art"])                
 print(la_arts) 
 
+
+# function that prints a message to the user suggesting attractions
 def get_attractions_for_traveler(traveler):
     traveler_destination = traveler[1]
     traveler_interests = traveler[2]
